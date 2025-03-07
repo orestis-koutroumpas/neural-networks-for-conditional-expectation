@@ -3,7 +3,7 @@
 This repository implements the estimation of conditional expectations using neural networks. Specifically, the neural network models are trained to approximate the conditional expectations for different functions \( G(Y) \) given \( X \), using various function families such as [A1], [A2], and [C1]. The code also provides numerical solutions for comparison.
 
 ## Function Families
-### [Α]: Range \( (-\infty, \infty) \)
+### [Α]: Range \( −∞,∞ \)
 
 - **[A1]**: 
   - \( \omega(z) = z \), 
