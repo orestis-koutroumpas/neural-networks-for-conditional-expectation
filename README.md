@@ -2,6 +2,30 @@
 
 This repository implements the estimation of conditional expectations using neural networks. Specifically, the neural network models are trained to approximate the conditional expectations for different functions \( G(Y) \) given \( X \), using various function families such as [A1], [A2], and [C1]. The code also provides numerical solutions for comparison.
 
+## Function Families
+
+### [Α]: Range \( (-\infty, \infty) \)
+
+- **[A1]**: 
+  - \( \omega(z) = z \), 
+  - \( \rho(z) = -1 \),
+  - \( \phi(z) = \frac{z^2}{2} \),
+  - \( \psi(z) = -z \)
+  
+- **[A2]**: 
+  - \( \omega(z) = \sinh(z) \),
+  - \( \rho(z) = -e^{-0.5 |z|} \),
+  - \( \phi(z) = (e^{0.5 |z|} - 1) + \frac{1}{3}(e^{-1.5 |z|} - 1) \),
+  - \( \psi(z) = 2 \, \text{sign}(z) \, (e^{-0.5 |z|} - 1) \)
+
+### [C]: Range \( (a, b) \)
+
+- **[C1]**:
+  - \( \omega(z) = \frac{a}{1 + e^z} + \frac{b e^z}{1 + e^z} \),
+  - \( \rho(z) = -\frac{e^z}{1 + e^z} \),
+  - \( \phi(z) = \frac{b - a}{1 + e^z} + b \log(1 + e^z) \),
+  - \( \psi(z) = -\log(1 + e^z) \)
+  
 ## Overview
 
 The repository consists of the following:
