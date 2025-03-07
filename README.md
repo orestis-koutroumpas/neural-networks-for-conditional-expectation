@@ -4,15 +4,15 @@ This repository implements the estimation of conditional expectations using neur
 
 ## Function Families
 
-```math
 ### [Α]: Range \( (-\infty, \infty) \)
 
-- **[A1]**: 
+- \textbf{[A1]}: 
   - \( \omega(z) = z \), 
   - \( \rho(z) = -1 \),
   - \( \phi(z) = \frac{z^2}{2} \),
   - \( \psi(z) = -z \)
-- **[A2]**: 
+
+- \textbf{[A2]}: 
   - \( \omega(z) = \sinh(z) \),
   - \( \rho(z) = -e^{-0.5 |z|} \),
   - \( \phi(z) = (e^{0.5 |z|} - 1) + \frac{1}{3}(e^{-1.5 |z|} - 1) \),
@@ -20,12 +20,12 @@ This repository implements the estimation of conditional expectations using neur
 
 ### [C]: Range \( (a, b) \)
 
-- **[C1]**:
+- \textbf{[C1]}:
   - \( \omega(z) = \frac{a}{1 + e^z} + \frac{b e^z}{1 + e^z} \),
   - \( \rho(z) = -\frac{e^z}{1 + e^z} \),
   - \( \phi(z) = \frac{b - a}{1 + e^z} + b \log(1 + e^z) \),
   - \( \psi(z) = -\log(1 + e^z) \)
-```
+
 ## Overview
 
 The repository consists of the following:
