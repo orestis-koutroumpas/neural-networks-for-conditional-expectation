@@ -44,11 +44,11 @@ The repository contains plots that show the comparison between the neural networ
 
 ### Learning Curves for G(Y) = Y
 
-1. **Learning Curve with [A1]**:
-   ![Learning Curve A1](screenshots/curve1.png)
-
-2. **Learning Curve with [A2]**:
-   ![Learning Curve A2](screenshots/curve2.png)
+1. **Learning Curve with [A1]** and **Learning Curve with [A2]**:
+   <p style="display: flex; justify-content: space-between;">
+      <img src="screenshots/curve1.png" alt="Learning Curve A1" width="45%" />
+      <img src="screenshots/curve2.png" alt="Learning Curve A2" width="45%" />
+   </p>
 
 ### Approximation for G(Y) = Y
 
@@ -57,11 +57,11 @@ The repository contains plots that show the comparison between the neural networ
 
 ### Learning Curves for G(Y) = min{1, max{-1,Y}}
 
-4. **Learning Curve with [A1]**:
-   ![Learning Curve A1](screenshots/curve4.png)
-
-5. **Learning Curve with [C1]**:
-   ![Learning Curve C1](screenshots/curve5.png)
+4. **Learning Curve with [A1]** and **Learning Curve with [C1]**:
+   <p style="display: flex; justify-content: space-between;">
+      <img src="screenshots/curve4.png" alt="Learning Curve A1" width="45%" />
+      <img src="screenshots/curve5.png" alt="Learning Curve C1" width="45%" />
+   </p>
 
 ### Approximation for G(Y) = min{1, max{-1,Y}}
 
@@ -78,7 +78,7 @@ To run the code:
 
 2. Navigate into the repository directory:
 
-        cd conditional-expectation-nn
+        cd folder-name
 
 3.  Install required dependencies:
 
