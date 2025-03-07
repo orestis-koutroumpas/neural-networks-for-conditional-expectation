@@ -54,7 +54,7 @@ The repository contains plots that show the comparison between the neural networ
 
 3. **Approximation for G(Y) = Y**:
    <div style="text-align: center;">
-      <img src="screenshots/curve3.png" alt="Approximation for G(Y) = Y" width="60%" />
+      <img src="screenshots/curve3.png" alt="Approximation for G(Y) = Y" width="90%" />
    </div>
 
 ### Learning Curves for G(Y) = min{1, max{-1,Y}}
@@ -69,7 +69,7 @@ The repository contains plots that show the comparison between the neural networ
 
 6. **Approximation for G(Y) = min{1, max{-1,Y}}**:
    <div style="text-align: center;">
-      <img src="screenshots/curve6.png" alt="Approximation for G(Y) = min{1, max{-1,Y}}" width="60%" />
+      <img src="screenshots/curve6.png" alt="Approximation for G(Y) = min{1, max{-1,Y}}" width="90%" />
    </div>
 
 
