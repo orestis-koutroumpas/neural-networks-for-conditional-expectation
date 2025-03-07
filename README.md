@@ -6,10 +6,10 @@ This repository implements the estimation of conditional expectations using neur
 ### [Α]: Range \( −∞,∞ \)
 
 - **[A1]**: 
-  - \( \omega(z) = z \), 
-  - \( \rho(z) = -1 \),
-  - \( \phi(z) = \frac{z^2}{2} \),
-  - \( \psi(z) = -z \)
+  - \( 𝜔(𝓏)=𝓏 \), 
+  - \( 𝜌(𝓏)=−1, \),
+  - \( \𝜑(𝓏)= frac{z^2}{2} \),
+  - \( \𝜓(𝓏)=−𝓏 \)
 
 - **[A2]**: 
   - \( \omega(z) = \sinh(z) \),
