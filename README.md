@@ -4,7 +4,7 @@ This repository implements the estimation of conditional expectations using neur
 
 ## Function Families
 
-### [Α]: Range ```math\( (-\infty, \infty) \)```
+```math[Α]: Range \( (-\infty, \infty) \)```
 
 - \textbf{[A1]}: 
   - \( \omega(z) = z \), 
