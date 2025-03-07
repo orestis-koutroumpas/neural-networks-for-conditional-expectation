@@ -1,6 +1,6 @@
 # Conditional Expectation Estimation with Neural Networks
 
-This repository implements the estimation of conditional expectations using neural networks. Specifically, the neural network models are trained to approximate the conditional expectations for different functions \( G(Y) \) given \( X \), using various function families such as [A1], [A2], and [C1]. The code also provides numerical solutions for comparison.
+This repository implements the estimation of conditional expectations using neural networks. Specifically, the neural network models are trained to approximate the conditional expectations 𝔼𝑦[𝐺(𝒴)|𝒳=𝑋] for different functions G(Y) given X, using various function families such as [A1], [A2], and [C1]. The code also provides numerical solutions for comparison.
 
 ## Function Families
 ### [Α]: Range \( −∞,∞ \)
@@ -14,7 +14,7 @@ This repository implements the estimation of conditional expectations using neur
 - **[A2]**: 
   - 𝜔(𝓏) = sinh(𝓏),
   - 𝜌(𝓏) = −𝑒^(−0.5|𝓏|),
-  - 𝜑(𝓏) = (𝑒^(0.5|𝓏|−1)) + (1/3)(𝑒^(−1.5|𝓏|−1)),
+  - 𝜑(𝓏) = 𝑒^(0.5|𝓏|−1) + (1/3)(𝑒^(−1.5|𝓏|−1)),
   - 𝜓(𝓏) = 2 𝑠𝑖𝑔𝑛(𝓏) (𝑒^(−0.5|𝓏|−1))
 
 ### [C]: Range (a, b)
