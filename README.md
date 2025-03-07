@@ -45,28 +45,28 @@ The repository contains plots that show the comparison between the neural networ
 ### Learning Curves for G(Y) = Y
 
 1. **Learning Curve with [A1]**:
-   ![Learning Curve A1](curve1_G(Y)_A1.png)
+   ![Learning Curve A1](curve1.png)
 
 2. **Learning Curve with [A2]**:
-   ![Learning Curve A2](curve2_G(Y)_A2.png)
+   ![Learning Curve A2](curve2.png)
 
 ### Approximation for G(Y) = Y
 
 3. **Approximation for G(Y) = Y**:
-   ![Approximation for G(Y) = Y](curve3_approximation_G1.png)
+   ![Approximation for G(Y) = Y](curve3.png)
 
 ### Learning Curves for G(Y) = min{1, max{-1,Y}}
 
 4. **Learning Curve with [A1]**:
-   ![Learning Curve A1](curve4_G2_A1.png)
+   ![Learning Curve A1](curve4.png)
 
 5. **Learning Curve with [C1]**:
-   ![Learning Curve C1](curve5_G2_A2.png)
+   ![Learning Curve C1](curve5.png)
 
 ### Approximation for G(Y) = min{1, max{-1,Y}}
 
 6. **Approximation for G(Y) = min{1, max{-1,Y}}**:
-   ![Approximation for G(Y) = min{1, max{-1,Y}}](curve6_approximation_G2.png)
+   ![Approximation for G(Y) = min{1, max{-1,Y}}](curve6.png)
 
 
 ## Usage
