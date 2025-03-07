@@ -45,28 +45,32 @@ The repository contains plots that show the comparison between the neural networ
 ### Learning Curves for G(Y) = Y
 
 1. **Learning Curve with [A1]** and **Learning Curve with [A2]**:
-   <p style="display: flex; justify-content: space-between;">
+   <div style="display: flex; justify-content: space-between; text-align: center; width: 100%;">
       <img src="screenshots/curve1.png" alt="Learning Curve A1" width="45%" />
       <img src="screenshots/curve2.png" alt="Learning Curve A2" width="45%" />
-   </p>
+   </div>
 
 ### Approximation for G(Y) = Y
 
 3. **Approximation for G(Y) = Y**:
-   ![Approximation for G(Y) = Y](screenshots/curve3.png)
+   <div style="text-align: center;">
+      <img src="screenshots/curve3.png" alt="Approximation for G(Y) = Y" width="60%" />
+   </div>
 
 ### Learning Curves for G(Y) = min{1, max{-1,Y}}
 
 4. **Learning Curve with [A1]** and **Learning Curve with [C1]**:
-   <p style="display: flex; justify-content: space-between;">
+   <div style="display: flex; justify-content: space-between; text-align: center; width: 100%;">
       <img src="screenshots/curve4.png" alt="Learning Curve A1" width="45%" />
       <img src="screenshots/curve5.png" alt="Learning Curve C1" width="45%" />
-   </p>
+   </div>
 
 ### Approximation for G(Y) = min{1, max{-1,Y}}
 
 6. **Approximation for G(Y) = min{1, max{-1,Y}}**:
-   ![Approximation for G(Y) = min{1, max{-1,Y}}](screenshots/curve6.png)
+   <div style="text-align: center;">
+      <img src="screenshots/curve6.png" alt="Approximation for G(Y) = min{1, max{-1,Y}}" width="60%" />
+   </div>
 
 
 ## Usage
